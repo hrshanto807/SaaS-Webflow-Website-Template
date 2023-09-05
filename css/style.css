@@ -1,0 +1,1422 @@
+/*---------------------------------------
+ genarel css 
+ ---------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Open+Sans:wght@400;700&display=swap');
+
+
+:root {
+    --sas-primary-font: "Jost";
+    --sas-secondary-font: "Open Sans";
+    --sas-primary-color: #303030;
+    --sas-secondary-color: #4E4E4E;
+}
+
+/* ---------------------------------------
+common css
+------------------------------------------ */
+container {
+    max-width: 1400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sas-section-tag h2 {
+    color: var(--sas-primary-color);
+    font-family: var(--sas-primary-font);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.2%;
+    /* 53.28px */
+    text-transform: capitalize;
+}
+
+.sas-section-tag h3 {
+    color: #303030;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.2%;
+    /* 39.96px */
+    text-transform: capitalize;
+}
+
+.sas-section-tag h4 {
+    color: var(--sas-primary-color);
+    font-family: var(--sas-primary-font);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.2%;
+    /* 39.96px */
+    text-transform: capitalize;
+}
+
+.sas-section-tag p {
+    color: var(--sas-secondary-color);
+    font-family: var(--sas-secondary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 40px */
+    text-transform: capitalize;
+}
+
+li {
+    list-style: none;
+}
+
+.sas-button {
+    color: #FFF;
+    font-family: var(--sas-primary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+    padding: 12px 38px;
+    border-radius: 5px;
+    background: var(--sas-primary-color);
+
+}
+
+/* ---------------------------------
+sas-heading-content-area
+------------------------------------ */
+.sas-heading-area {
+    padding-bottom: 90px;
+}
+
+.sas-heading-content-area {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 54px;
+
+}
+
+.sas-primary-menu-area {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    align-items: center;
+}
+
+.sas-primary-menu-area ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin: 0;
+}
+
+.sas-primary-menu-area ul li a {
+    color: #303030;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+}
+
+/* ----------------------------
+sas-hero-section
+-----------------------------*/
+.sas-hero-section {
+    background-image: url('../index-html-img/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -200px;
+    padding-top: 292px;
+
+
+}
+
+.sas-hero-area-content {
+    padding-bottom: 76px;
+}
+
+.sas-hero-area-content h1 {
+    color: var(--sas-primary-color);
+    font-family: var(--sas-primary-font);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.2%;
+    /* 79.92px */
+    text-transform: capitalize;
+}
+
+.sas-hero-area-button p {
+    color: var(--sas-primary-color);
+    font-family: var(--sas-primary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+}
+
+.sas-hero-awared-area-main {
+    border-top: 1px solid #C1C1C1;
+    width: 600px;
+    padding-top: 58px;
+}
+
+.sas-hero-awared-area {
+    background-image: url('../index-html-img/Pattern.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-right: 90px;
+    padding-bottom: 90px;
+
+}
+
+.sas-hero-awared-left {
+    border-right: 1px solid #C1C1C1;
+    padding-right: 26px;
+}
+
+.sas-hero-awored-left-left-content {
+    background-image: url('../index-html-img/awored-left.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sas-hero-awored-left-left-content h5 {
+    color: var(--sas-primary-color);
+    text-align: center;
+    font-family: var(--sas-secondary-font);
+    font-size: 14.174px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91.7%;
+    /* 12.997px */
+    text-transform: capitalize;
+}
+
+.sas-hero-awored-left-left-content p {
+    color: var(--sas-primary-color);
+    text-align: center;
+    font-family: var(--sas-secondary-font);
+    font-size: 12.284px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91.7%;
+    /* 11.264px */
+    text-transform: capitalize;
+    padding-right: 5px;
+}
+
+.sas-hero-awored-left-left-content button {
+    color: #FFD5CF;
+    text-align: center;
+    font-family: var(--sas-secondary-font);
+    font-size: 17.953px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91.7%;
+    /* 16.463px */
+    text-transform: uppercase;
+    border-radius: 4.725px;
+    background: #FF7C68;
+    padding: 7px 22px;
+}
+
+.sas-hero-awored-left-left-content h6 {
+    color: var(--sas-primary-color);
+    text-align: center;
+    font-family: var(--sas-secondary-font);
+    font-size: 17.009px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91.7%;
+    /* 15.597px */
+    text-transform: capitalize;
+}
+
+.sas-hero-awared-right h3 {
+    color: var(--sas-primary-color);
+    font-family: var(--sas-secondary-font);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.2%;
+    /* 46.62px */
+    text-transform: capitalize;
+}
+
+.sas-hero-awared-right-icon i {
+    color: #FFB545;
+    font-size: 28px;
+}
+
+/* -------------------------
+sas-features-area
+---------------------------- */
+.sas-features-area {
+    padding-top: 167px;
+    padding-bottom: 96px;
+}
+
+.sas-fetures-heading-area p {
+    padding-left: 200px;
+    padding-right: 250px;
+    padding-bottom: 32px;
+}
+
+.sas-single-fetures-area {
+    display: flex;
+    padding: 47px 44px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(244, 244, 244, 0.93);
+    box-shadow: -2.57262px 2.57262px 0px 0px #FFF inset;
+}
+
+.sas-single-fetures-area:hover {
+    border-radius: 10px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
+
+}
+
+.sas-single-fetures-area.active {
+    border-radius: 10px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
+
+}
+
+.sas-single-fetures-area i {
+    font-size: 60px;
+}
+
+/* ------------------------------
+sas-management-area
+--------------------------------- */
+.sas-management-area {
+    background-image: url('../index-html-img/management.png');
+    background-repeat: no-repeat;
+    padding-top: 167px;
+    padding-bottom: 96px;
+    background-position: left;
+}
+
+.sas-management-area-left {
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(242, 242, 242, 0.93);
+    box-shadow: -33px 60px 72px 0px rgba(155, 155, 155, 0.20);
+    padding: 67px 28px 67px 35px;
+
+
+}
+
+.sas-management-area-progress-content-main {
+    height: 233.729px;
+    transform: rotate(-0.562deg);
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: linear-gradient(276deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
+    box-shadow: -2.57262px 2.57262px 0px 0px #FFF inset, 0px 14px 28px 0px rgba(205, 205, 205, 0.25);
+    backdrop-filter: blur(10.719239234924316px);
+
+}
+
+.sas-management-area-progress-content {
+
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+.sas-management-area-progress .progress {
+    width: 376px;
+    margin-bottom: 20px
+}
+
+.sas-management-area-progress-content-main h5 {
+    color: #303030;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.2%;
+    /* 26.64px */
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    padding-top: 32px;
+    padding-left: 27px;
+}
+
+.sas-management-area-progres-left p {
+    color: #303030;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.2%;
+    /* 19.98px */
+    text-transform: capitalize;
+}
+
+.sas-management-progres-persent p {
+    margin: 0;
+    margin-bottom: 11px;
+}
+
+.sas-management-middle-content {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.sas-management-middle-content img {
+    max-width: 100%;
+}
+
+.sas-management-middle-left-heading {
+    border-radius: 25px;
+    background: linear-gradient(276deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
+    box-shadow: -2.57262px 2.57262px 0px 0px #FFF inset, 0px 14px 28px 0px rgba(205, 205, 205, 0.25);
+    backdrop-filter: blur(10.719239234924316px);
+    width: 365.134px;
+    height: 231.807px;
+    transform: rotate(-0.562deg);
+    padding: 27px;
+}
+
+.sas-management-middle-left-heading h4 {
+    color: #303030;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.2%;
+    /* 26.64px */
+    text-transform: capitalize;
+}
+
+.sas-management-middle-left-heading p span {
+    color: #303030;
+    font-family: Jost;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.2%;
+    /* 47.952px */
+    text-transform: capitalize;
+}
+
+.sas-management-middle-left-heading p {
+    color: #9A9A9A;
+    font-family: Jost;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.2%;
+    /* 15.984px */
+    text-transform: lowercase;
+}
+
+.sas-management-middle-left-heading-img img {
+    margin-top: -80px;
+}
+
+.sas-mangement-assigned-area {
+    border-radius: 10px;
+    background: linear-gradient(276deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
+    box-shadow: -2.57262px 2.57262px 0px 0px #FFF inset, 0px 14px 28px 0px rgba(205, 205, 205, 0.25);
+    backdrop-filter: blur(10.719239234924316px);
+    border-radius: 10px;
+    background: linear-gradient(276deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
+    box-shadow: -2.57262px 2.57262px 0px 0px #FFF inset, 0px 14px 28px 0px rgba(205, 205, 205, 0.25);
+    backdrop-filter: blur(10.719239234924316px);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 66px;
+}
+
+.sas-management-assingned-heading h4 {
+    color: #303030;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.2%;
+    /* 26.64px */
+    text-transform: capitalize;
+}
+
+.sas-management-assingned-icon {
+    display: flex;
+    gap: 41px;
+}
+
+.sas-management-assingned-icon i {
+    color: #CFCFCF;
+    font-size: 30px;
+}
+
+.sas-management-assingned-icon i:hover {
+    color: #2FCF3F;
+
+}
+
+.sas-management-assingned-icon i.active {
+    color: #2FCF3F;
+
+}
+
+.sas-management-area-content {
+    padding-top: 20px;
+}
+
+.sas-management-single-content-heading {
+    padding: 26px 23px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+
+}
+
+.sas-management-single-content-heading p {
+    background-color: #47CFFF;
+    width: 21px;
+    height: 21px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    border: #1EB1E5;
+    border-radius: 50%;
+    margin: 0;
+
+}
+
+.sas-management-single-content--p p {
+    padding-left: 70px;
+}
+
+/* ----------------------
+sas-project-area
+----------------------- */
+.sas-project-area {
+    background-image: url('../index-html-img/Background.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 99px;
+}
+
+.sas-project-area-left {
+    padding-top: 45px;
+
+}
+
+.sas-project-right-area-img img {
+    width: 699px;
+    height: 702px;
+    flex-shrink: 0;
+}
+
+.sas-project-single-content-area {
+    display: flex;
+    gap: 43px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.sas-project-area-content {
+    padding-right: 32px;
+}
+
+/* ------------------------------
+sas-trusted-area-heading
+--------------------------------- */
+.sas-trusted-area-heading {
+    text-align: center;
+
+}
+
+.sas-trusted-area-heading p {
+    padding-right: 307px;
+    padding-left: 271px;
+    padding-bottom: 24px;
+}
+
+/* --------------------
+sas-dashboared
+----------------------- */
+
+.sas-dashboared {
+    background-color: var(--sas-primary-color);
+    height: 800px;
+    width: 1400px;
+    border-radius: 30px;
+    margin: 0;
+    margin-top: 128px;
+
+
+}
+
+.sas-dashbored-heading-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 164px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sas-dashbored-heading-left h2 {
+    color: #FFF;
+}
+
+.sas-dashbored-heading-left p {
+    color: #FFF;
+}
+
+.sas-dashbored-heading-right p {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+}
+
+.sas-dashboared-input-area .sas-button {
+    background-color: #1EB1E5;
+    padding: 22px 53px;
+}
+
+.sas-dashboared-input-area input {
+    border-radius: 5px;
+    background: #FFF;
+    color: #939393;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+    padding: 22px 0 22px 31px;
+}
+
+/* -----------------------------
+sas-dsashbored-content-area
+------------------------------- */
+.sas-dsashbored-content-area {
+    width: 1226px;
+    border-radius: 30px;
+    border: 1px solid #D1D1D1;
+    background: rgba(255, 255, 255, 0.93);
+    box-shadow: 40px 48px -1px 0px #EBEBEB;
+    backdrop-filter: blur(31px);
+    margin-left: 80px;
+    display: flex;
+    gap: 35px;
+    padding: 47px;
+}
+
+.sas-dasbores-content-icon {
+    width: 95px;
+    height: 648px;
+    flex-shrink: 0;
+    border-radius: 22.143px;
+    background: #FFF;
+    box-shadow: 0px 6.32667px 44.28667px 2.53067px rgba(128, 159, 186, 0.20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+}
+
+.sas-dasbores-content-icon i {
+    font-size: 17px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sas-dasbores-content-icon i.active {
+    background-color: #FFD546;
+}
+
+.sas-dasbores-content-icon i:hover {
+    background-color: #FFD546;
+}
+
+.sas-dasbores-content-icon a {
+    margin-top: 280px;
+    color: var(--sas-secondary-color);
+}
+
+.sas-middle-dashboard-content-heading-left {
+    position: relative;
+
+
+}
+
+.sas-middle-dashboard-content-heading-left i {
+    position: absolute;
+    font-size: 13px;
+    left: 28px;
+    bottom: 11px;
+    color: #94ADC2;
+}
+
+.sas-miidle-content-heading {
+    padding-bottom: 21px;
+}
+
+.sas-miidle-content-heading h2 {
+    color: #141414;
+    font-family: Jost;
+    font-size: 25.249px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.sas-middle-dashboard-content-heading-left input {
+    color: #94ADC2;
+    font-family: var(--sas-secondary-color);
+    font-size: 11.388px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.114px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 46px;
+    border: transparent;
+    border-radius: 50px;
+    width: 318.231px
+}
+
+.sas-dashbored-middle-middle-chart-heading-h3 h3 {
+    color: #141414;
+    font-family: Jost;
+    font-size: 21.041px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* -----------------------------------------------
+sas-dashbored middle- middle chart
+-------------------------------------------- */
+
+.sas-dashbored-miidle-middle-chart {
+    border-radius: 29.457px;
+    background: #FFF;
+    box-shadow: 0px 8.41634px 58.9144px 3.36654px rgba(128, 159, 186, 0.20);
+    padding: 30px 0 26px 26px;
+    margin-bottom: 41px;
+}
+
+.sas-dashbored-middle-middle-chart-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.sas-dashbored-middle-middle-chart-menu a {
+    color: #94ADC2;
+    text-align: center;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 14.308px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.143px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.sas-dashbored-middle-middle-chart-menu a i {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.sas-dashbored-middle-middle-chart-menu-icon a {
+    color: #94ADC2;
+    text-align: center;
+    font-family: var(--sas-secondary-color);
+    font-size: 14.308px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.143px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: -37px;
+}
+
+.sas-dashbored-middle-middle-chart-menu a:hover {
+    border: 1px solid #939393;
+
+}
+
+.sas-dashbored-middle-middle-chart-menu .active {
+    border: 1px solid #939393;
+
+}
+
+.sas-dashbored-middle-middle-chart-number-main {
+    background-image: url('../index-html-img/dashbored\ md-2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sas-dashbored-middle-middle-chart-number {
+    background-image: url('../index-html-img/dashbored-md.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    padding-top: 53px;
+}
+
+.sas-dashbored-middle-middle-chart-number h5:after {
+
+    content: '-------------------------------------------------------------------';
+    margin-left: 10px;
+}
+
+.sas-dashbored-middle-middle-chart-monthly-img img {
+    margin-left: -112px;
+}
+
+.sas-dashbored-middle-middle-chart-month {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 42px;
+}
+
+.sas-dashbored-middle-middle-chart-month span {
+    color: #94ADC2;
+    text-align: center;
+    font-family: var(--sas-secondary-font);
+    font-size: 14.308px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.072px;
+}
+
+/* ---------------------------------------
+sas-dashbored-right-contnet-content
+------------------------------------------- */
+
+.sas-dashbored-middle-middle-last-single-content {
+    border-radius: 29.457px;
+    background: #FFF;
+    box-shadow: 0px 8.41634px 58.9144px 3.36654px rgba(128, 159, 186, 0.20);
+    padding: 27px 31px 19px 34px;
+}
+
+.sas-dashbored-midddle-middle-chart-last-content-heding h3,
+.sas-dashbored-right-content-content-heading h3 {
+    color: #141414;
+    font-family: Jost;
+    font-size: 21.041px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sas-dashbored-midddle-middle-chart-last-content-heding i {
+    color: #141414;
+    font-size: 21.041px;
+
+}
+
+/* -----------------------------------------------
+sas-dashbored-right-contnet-content
+------------------------------------ --------------*/
+.sas-dashbored-right-contnet-content-section {
+    border-radius: 29.457px;
+    background: #FFF;
+    box-shadow: 0px 8.41634px 58.9144px 3.36654px rgba(128, 159, 186, 0.20);
+    padding: 26px 31px;
+}
+
+.sas-dashbored-right-contnet-heading i {
+    font-size: 17px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sas-dashbored-right-content-content-heading i {
+    color: #94ADC2;
+    font-size: 28px;
+}
+
+/* ---------------------------------------
+sas-dashbored-right-contnet-content-percentiz-left
+------------------------------------------------------ */
+.sas-dashbored-right-contnet-content-percentiz-left {
+    display: flex;
+    gap: 17px;
+}
+
+.sas-dashbored-right-contnet-content-percentiz-left i {
+    width: 50.498px;
+    height: 50.498px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 16px;
+}
+
+.sas-dashbored-right-contnet-content-percentiz-left p {
+    color: #94ADC2;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 16.833px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.252px;
+    margin: 0;
+}
+
+.sas-dashbored-right-contnet-content-percentiz-left h4 {
+    color: #141414;
+    font-family: Jost;
+    font-size: 25.249px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sas-dashbored-right-contnet-content-percentiz-right i {
+    font-size: 26px;
+    color: #141414;
+}
+
+/* --------------------------
+sas-modules-area
+------------------------ */
+.sas-modules-area {
+    padding-top: 400px;
+
+}
+
+.sas-modules-heading-area p {
+    padding-left: 202px;
+    padding-right: 219px;
+    padding-bottom: 41px;
+}
+
+.sas-modules-container {
+    border-radius: 30px;
+    border: 3px dashed #DBDBDB;
+    padding: 15px;
+}
+
+.sas-modules-content {
+    border-radius: 30px;
+    background: #F9F9F9;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    padding-left: 10px;
+}
+
+.sas-modules-content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 33px;
+}
+
+.sas-modules-single-content {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.sas-modules-single-icon i {
+    width: 56px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.sas-moudules-single-subject {
+    padding-right: 84px;
+}
+
+.sas-moudules-single-subject h4 {
+    color: var(--sas-primary-color);
+    font-family: var(--sas-primary-font);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sas-moudules-single-subject p {
+    color: var(--sas-secondary-color);
+    font-family: var(--sas-secondary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+}
+
+/* ------------------------------
+sas-sofwore-area
+-------------------------------------- */
+.sas-sofwore-area {
+    padding-top: 136px;
+    padding-left: 259px;
+    padding-bottom: 111px;
+}
+
+.sas-sofwore {
+    display: flex;
+    gap: 79px;
+}
+
+.sas-softwore-area-left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+
+}
+
+.sas-softwore-left-single-contnent {
+    display: flex;
+    gap: 23px;
+    padding: 30px 14px;
+    border-radius: 30px;
+    border: 1px solid #E0E0E0;
+}
+
+/* ------------------------------------
+sas-softwore-right-area
+--------------------------------------- */
+.sas-softwore-right-area {
+    padding-left: 80px;
+    display: flex;
+    gap: 33px;
+    border-radius: 30px;
+    background: #F6F6F6;
+    width: 100%;
+    height: 100%;
+}
+
+.sas-softwore-right-area-content {
+    padding-top: 115px;
+    padding-right: 115px;
+}
+
+.sas-softwore-right-area-content h4 {
+    color: #3BA3C8;
+    font-family: var(--sas-secondary-font);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    /* 40px */
+}
+
+.sas-softwaore-right-app-area {
+    display: flex;
+    gap: 26px;
+    padding-top: 48px;
+}
+
+.sas-softwore-right-img-area img {
+    padding-top: 192px;
+}
+
+/* --------------------------------
+sas-testimonial-area
+---------------------------------- */
+.sas-testimonial-area {
+    background-color: var(--sas-primary-color);
+    padding-top: 144px;
+    padding-bottom: 144px;
+
+}
+
+.sas-single-testimonial-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding-left: 258px;
+    padding-right: 265px;
+    padding-top: 20px;
+}
+
+.sas-single-testimonial-content p a {
+    color: #47CFFF;
+    font-family: var(--sas-secondary-font);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.sas-single-testimonial-area .sas-single-testimonial-img img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-left: 565px;
+}
+
+.sas-single-testimonial-area .sas-single-testimonial-name img {
+    width: 30.748px;
+    height: 24.714px;
+    margin-left: 516px;
+}
+
+.sas-testimonial-slider-area .owl-nav {
+    color: #fff;
+}
+
+.sas-testimonial-slider-area .owl-nav button span {
+    font-size: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 16px 35px;
+    border-left: none;
+
+}
+
+.sas-testimonial-slider-area .owl-nav button.owl-prev {
+    position: absolute;
+    left: 0;
+    top: 150px;
+
+}
+
+.sas-testimonial-slider-area .owl-nav button.owl-next {
+    position: absolute;
+    right: 0;
+    top: 150px;
+
+}
+
+/* -------------------------------------
+sas-testimonial-ratting-area
+--------------------------------------- */
+.sas-testimonial-ratting-area {
+    padding-top: 115px;
+}
+
+.sas-testimonial-ratting h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--sas-primary-font);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.2%;
+    /* 53.28px */
+    text-transform: capitalize;
+}
+
+.sas-testimonial-ratting p {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--sas-secondary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+}
+
+/* ----------------------------
+sas-deliver-area
+---------------------------------- */
+.sas-deliver-area {
+    padding-top: 152px;
+    padding-top: 100px;
+}
+
+.sas-deliver-heading {
+    padding-left: 145px;
+    padding-right: 224px;
+    padding-bottom: 36px;
+}
+
+.sas-deliver-content-area {
+    background-image: url('../index-html-img/start.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 30px;
+    padding-top: 90px;
+}
+
+
+.sas-deliver-middle-started,
+.sas-deliver-middle-Professional {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+
+.sas-deliver-middle-started h3,
+.sas-deliver-middle-Professional h3 {
+    color: #303030;
+    font-family: Jost;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.2%;
+    /* 46.62px */
+    text-transform: capitalize;
+}
+
+.sas-deliver-middle-started i,
+.sas-deliver-middle-Professional i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57px;
+    height: 57px;
+    background-color: #141414;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 28px;
+}
+
+.sas-deliver-middle-started-area {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.sas-deliver-middle-Professional-area {
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+/* -------------------------------
+sas-deliver-single-content-area
+------------------------------------ */
+.sas-deliver-single-content-area {
+    border-radius: 30px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
+    padding: 63px 62px;
+}
+
+.sas-deliver-single-content-area h2 {
+    color: #303030;
+    font-family: Jost;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.2%;
+    /* 79.92px */
+    text-transform: capitalize;
+}
+
+.sas-deliver-single-content-area p {
+    color: #303030;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+}
+
+.sas-deliver-single-content-area p span {
+    color: #303030;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+
+}
+
+.sas-deliver-single-content-single-subject {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+
+}
+
+.sas-deliver-single-content-single-subject i {
+    color: #2FCF3F;
+}
+
+.sas-deliver-single-content-single-subject i:hover {
+    color: #D0D0D0;
+}
+
+.sas-deliver-single-content-single-subject i.active {
+    color: #D0D0D0;
+}
+
+
+
+.sas-deliver-single-content-area-buton a {
+    color: #303030;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+    display: flex;
+    padding: 26px 171px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 15px;
+    background: #EAEAEA;
+}
+
+.sas-deliver-single-content-area-buton a:hover {
+    color: #fff;
+    background-color: #303030;
+
+}
+
+/* -----------------------------
+sas-footer-area
+-------------------------------- */
+.sas-footer-area {
+    margin-top: 100px;
+    padding-top: 127px;
+    background-color: var(--sas-primary-color);
+}
+
+.sas-footer-single-content-area h4,
+.sas-footer-img-heading h4 {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.2%;
+    /* 33.3px */
+    text-transform: capitalize;
+    margin-top: 57px;
+    margin-bottom: 68px;
+}
+
+.sas-footer-single-content-area p {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+}
+
+.sas-footer-img {
+    background-image: url('../index-html-img/Image-2.png');
+    background-repeat: no-repeat;
+    width: 557px;
+    height: 226px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.sas-footer-img a {
+    display: inline-flex;
+    padding: 14px 44px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.75);
+    color: #313131;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+    position: absolute;
+    top: 82px;
+    left: 176px;
+}
+.sas-copy-right p{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    text-transform: capitalize;
+    padding-top: 84px;
+    padding-bottom: 32px;
+}
