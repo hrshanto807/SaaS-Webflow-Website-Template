@@ -1409,14 +1409,193 @@ sas-footer-area
     top: 82px;
     left: 176px;
 }
-.sas-copy-right p{
+
+.sas-copy-right p {
     color: #FFF;
     font-family: Jost;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 32px */
+    line-height: 160%;
+    /* 32px */
     text-transform: capitalize;
     padding-top: 84px;
     padding-bottom: 32px;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------
+journel area start
+------------------------------------------------------------------------------------------------------------ */
+
+.journal-area-content-section {
+    background-image: url('../journal-html-img/Background.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+
+.journal-area-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 161px;
+}
+
+.journal-left-contant-about-area {
+    display: flex;
+    padding: 38px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
+
+}
+
+.journal-left-icon-about-single-area {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.journal-left-icon-about-single-area p {
+    color: #7D7D7D;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.journal-left-icon-about-area {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.journal-left-icon-about-single-area i {
+    font-size: 20px;
+}
+
+.journal-area-left-contant h2 {
+    color: #303030;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.5%;
+    /* 47.4px */
+}
+
+.journal-area-left-contant p {
+    color: #7D7D7D;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.5%;
+    /* 23.7px */
+    margin-top: 15px;
+    margin-bottom: 32px;
+}
+
+/* -----------------------------------------------
+journal-area-content-right-post
+-------------------------------------------------- */
+
+.journal-area-content-right-post {
+    width: 478.56px;
+    padding: 46px 34px;
+    border-radius: 30px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
+}
+
+.journal-single-right-post-contant {
+    display: flex;
+    gap: 15px;
+}
+
+.journal-single-right-post-contant-img img {
+    border-radius: 30px;
+
+}
+
+.journal-single-right-post-contant-content h4 {
+    color: #303030;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.5%;
+    padding-right: 72px;
+    /* 24.7px */
+}
+
+.journal-single-right-post-contant-content p {
+    color: #666A82;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.journal-single-right-post-contant-content p span {
+    margin-left: 10px;
+}
+
+/* -----------------------------------------------------
+journal-area-content-right
+------------------------------------------------------ */
+.journal-area-content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.journal-single-right-Categories-contant {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.journal-single-right-Categories-contant-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #4E4E4E;
+    padding-bottom: 22px;
+
+}
+
+.journal-single-right-Categories-contant-content h4 {
+    color: #4E4E4E;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+}
+
+.journal-single-right-Categories-contant-content p {
+    color: #4E4E4E;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    text-transform: capitalize;
 }
