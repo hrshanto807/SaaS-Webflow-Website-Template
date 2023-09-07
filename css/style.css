@@ -1460,24 +1460,14 @@ journel area start
     display: flex;
     gap: 10px;
     align-items: center;
+
 }
 
-.journal-left-icon-about-single-area p {
-    color: #7D7D7D;
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 160%;
-    /* 32px */
-    text-transform: capitalize;
-    margin: 0;
-}
 
 .journal-left-icon-about-area {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
 }
 
 .journal-left-icon-about-single-area i {
@@ -1505,6 +1495,19 @@ journel area start
     margin-top: 15px;
     margin-bottom: 32px;
 }
+
+.journal-left-icon-about-single-area p {
+    color: #7D7D7D;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+    margin: 0;
+}
+
 
 /* -----------------------------------------------
 journal-area-content-right-post
@@ -1601,4 +1604,418 @@ journal-area-content-right
 }
 
 
-/* ------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------------------------------------------------
+journal-left-contant-about-content
+----------------------------------------------------------------------------------------*/
+.journal-left-contant-about-content {
+    padding-right: 32px;
+}
+
+.journal-left-contant-a-tag {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.journal-left-contant-a-tag li {
+    list-style-type: var(--sas-primary-color)
+}
+
+.journal-left-contant-a-tag li a {
+    color: #4E4E4E;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.5%;
+    /* 30.1px */
+}
+
+.journal-left-contant-about-single-cerosoul h6 {
+    width: 68px;
+    height: 68px;
+    background-color: #303030;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150.5%;
+    border-radius: 50%;
+    margin-left: 377px;
+    /* 105.35px */
+}
+
+.journal-left-contant-about-single-cerosoul p {
+    color: #303030;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 150.5%;
+    /* 30.1px */
+}
+
+.journal-left-contant-about-cerosoul {
+    background-color: #7CE7FF;
+    padding: 133px 30px;
+    width: 872.204px;
+}
+
+.sas-adress-last-content {
+    padding-top: 71px;
+    padding-bottom: 55px;
+}
+
+.sas-adress-last-content h4 {
+    color: #606060;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    text-transform: capitalize;
+    margin-bottom: 27px;
+}
+
+.sas-adress-last-content p {
+    color: #606060;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    text-transform: capitalize;
+    margin-bottom: 47px;
+}
+
+.sas-adress-last-content-li {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.sas-adress-last-content-li li {
+    list-style: decimal;
+}
+
+.sas-adress-last-content-li li a {
+    color: #606060;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    text-transform: capitalize;
+}
+
+.sas-address-icon-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #7D7D7D;
+    border-bottom: 1px solid #7D7D7D;
+    padding-top: 29px;
+    padding-bottom: 26px;
+}
+
+.sas-address-icon {
+    display: flex;
+    gap: 54px;
+    align-items: center;
+}
+
+/* ------------------------------
+sas-address-submit-name-email-area
+----------------------------------------- */
+.sas-address-submit-name-email-area {
+    display: flex;
+    gap: 21px;
+}
+
+.sas-address-submit-name-email-area label,
+.sas-address-website-area label,
+.sas-address-message-area label {
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+    color: #4E4E4E;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 30px */
+    text-transform: capitalize;
+    margin-top: 46px;
+}
+
+.sas-address-submit-name-email-area label input,
+.sas-address-website-area label input,
+.sas-address-message-area label input {
+    width: 424.619px;
+    height: 80px;
+    color: #606060;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    border-radius: 20px;
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+    padding-left: 32px;
+
+
+}
+
+.sas-address-select-submit label {
+    color: #4E4E4E;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: 41px;
+    margin-bottom: 41px;
+
+}
+
+.sas-address-select-submit-button {
+    margin-bottom: 150px;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------------
+licenses-section-area
+--------------------------------------------------------------------------------------- */
+.licenses-section-area {
+    background-image: url('../index-html-img/Background.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.sas-licens-contntent-all-area {
+    display: flex;
+    flex-direction: column;
+    gap: 126px;
+}
+
+.licenses-icon-garapics,
+.sas-photograpy-licence-area,
+.sas-licence-font-area {
+    border-radius: 30px;
+    border: 3px dashed #DBDBDB;
+    display: flex;
+    padding: 15px 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.sas-icon-grapics-content,
+.sas-photograpy-licenses,
+.sas-licenses-font {
+    display: flex;
+    width: 100%;
+    padding: 88px 86px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    background: #F9F9F9;
+}
+
+.sas-photograpy-img {
+    display: flex;
+    gap: 5px;
+}
+
+/* -------------------------------------------------------------------------------------
+Password Protected
+-------------------------------------------------------------------------------------- */
+.page-password-area {
+    background-image: url('../index-html-img/password.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.sas-paswored-pages {
+    display: flex;
+    padding: 92px 112px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #D1D1D1;
+    background: rgba(255, 255, 255, 0.93);
+    width: 845px;
+    margin-top: 118px;
+}
+
+.sas-paswored-pages h1 {
+    color: #303030;
+    text-align: center;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    /* 55px */
+    margin-bottom: 25px;
+}
+
+.sas-paswored-pages p {
+    color: #4E4E4E;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.4%;
+    /* 34.628px */
+}
+
+.sas-paswored-pages input {
+    width: 600px;
+    height: 80px;
+    border-radius: 15px;
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+    color: #4E4E4E;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-left: 32px;
+}
+
+
+/* -------------------------------------------------------------------------------------
+sas-Changelog-area
+--------------------------------------------------------------------------------------- */
+.page-Changelog-area-all {
+    background-image: url('../index-html-img/password.png');
+    background-repeat: no-repeat;
+    padding: 150px 338px;
+    margin-top: 94px;
+    border-radius: 30px;
+}
+
+.sas-Changelog-area {
+    display: inline-flex;
+    padding: 62px 119px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FFF;
+    width: 724px;
+
+}
+
+.sas-Changelog-area h1 {
+    color: #2F2F2F;
+    font-family: Jost;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    /* 66px */
+
+}
+
+.sas-Changelog-area {
+    color: #808080;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.5%;
+    /* 30.1px */
+
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------------
+sas-error-area
+----------------------------------------------------------------------------------------*/
+.sas-error-area {
+    border-radius: 30px;
+    background: #171717;
+    height: 834.087px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.sas-error-area h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 300px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    /* 330px */
+}
+
+.sas-error-area h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    /* 82.5px */
+}
+
+.sas-error-area p {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.4%;
+    padding-left: 194px;
+    padding-right: 204px
+}
+
+.sas-error-area a {    
+    padding: 14px 28px;  
+    border-radius: 5px;
+    background: #4BE3EB;
+    color: #303030;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    text-transform: capitalize;
+}
