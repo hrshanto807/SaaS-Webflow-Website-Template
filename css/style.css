@@ -22,7 +22,9 @@ container {
     margin: 0;
     padding: 0;
 }
-
+i{
+    cursor: pointer;
+}
 a {
     text-decoration: none;
 }
@@ -88,6 +90,9 @@ li {
     border-radius: 5px;
     background: var(--sas-primary-color);
 
+}
+.sas-button:hover{
+    background-color:#2FCF3F;
 }
 
 /* ---------------------------------
@@ -286,16 +291,16 @@ sas-features-area
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+    border: 1px solid transparent;
     border-radius: 10px;
-    background: rgba(244, 244, 244, 0.93);
-    box-shadow: -2.57262px 2.57262px 0px 0px #FFF inset;
+    background: rgba(244, 244, 244, 0.93);    
 }
 
-.sas-single-fetures-area:hover {
-    border-radius: 10px;
+.sas-single-fetures-area:hover {   
     border: 1px solid #EBEBEB;
     background: #FFF;
     box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
+    cursor: pointer;
 
 }
 
@@ -482,14 +487,9 @@ sas-management-area
 
 .sas-management-assingned-icon i:hover {
     color: #2FCF3F;
+    cursor: pointer;
 
 }
-
-.sas-management-assingned-icon i.active {
-    color: #2FCF3F;
-
-}
-
 .sas-management-area-content {
     padding-top: 20px;
 }
@@ -609,7 +609,11 @@ sas-dashboared
 
 .sas-dashboared-input-area .sas-button {
     background-color: #1EB1E5;
-    padding: 22px 53px;
+    padding: 26px 53px;
+}
+.sas-dashboared-input-area .sas-button:hover {
+    background-color: red;
+    cursor: pointer;   
 }
 
 .sas-dashboared-input-area input {
@@ -669,13 +673,9 @@ sas-dsashbored-content-area
     align-items: center;
 
 }
-
-.sas-dasbores-content-icon i.active {
-    background-color: #FFD546;
-}
-
 .sas-dasbores-content-icon i:hover {
     background-color: #FFD546;
+    cursor: pointer;
 }
 
 .sas-dasbores-content-icon a {
@@ -767,6 +767,7 @@ sas-dashbored middle- middle chart
     letter-spacing: -0.143px;
     padding: 10px;
     border-radius: 20px;
+    border: 1px solid transparent;
 }
 
 .sas-dashbored-middle-middle-chart-menu a i {
@@ -790,6 +791,7 @@ sas-dashbored middle- middle chart
 
 .sas-dashbored-middle-middle-chart-menu a:hover {
     border: 1px solid #939393;
+    cursor: pointer;
 
 }
 
@@ -1139,9 +1141,12 @@ sas-testimonial-area
 .sas-testimonial-slider-area .owl-nav button span {
     font-size: 50px;
     border: 1px solid #fff;
-    border-radius: 50%;
-    padding: 16px 35px;
+    border-radius: 50%;   
     border-left: none;
+    width: 100px;
+    height: 100px;
+    display: block;
+    line-height: 82px;
 
 }
 
@@ -1342,6 +1347,7 @@ sas-deliver-single-content-area
 .sas-deliver-single-content-area-buton a:hover {
     color: #fff;
     background-color: #303030;
+    cursor: pointer;
 
 }
 

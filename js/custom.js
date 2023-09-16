@@ -5,7 +5,7 @@
         margin: 10,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 1000,
+        autoplayTimeout: 2000,
         autoplayHoverPause: true
     });
     $('.journal-left-contant-about-cerosoul').owlCarousel({
@@ -14,7 +14,7 @@
         margin: 30,
         nav: false,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 2000,
         autoplayHoverPause: true
     });
 })(jQuery);
