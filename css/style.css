@@ -22,9 +22,11 @@ container {
     margin: 0;
     padding: 0;
 }
-i{
+
+i {
     cursor: pointer;
 }
+
 a {
     text-decoration: none;
 }
@@ -91,8 +93,9 @@ li {
     background: var(--sas-primary-color);
 
 }
-.sas-button:hover{
-    background-color:#2FCF3F;
+
+.sas-button:hover {
+    background-color: #2FCF3F;
 }
 
 /* ---------------------------------
@@ -293,10 +296,10 @@ sas-features-area
     gap: 10px;
     border: 1px solid transparent;
     border-radius: 10px;
-    background: rgba(244, 244, 244, 0.93);    
+    background: rgba(244, 244, 244, 0.93);
 }
 
-.sas-single-fetures-area:hover {   
+.sas-single-fetures-area:hover {
     border: 1px solid #EBEBEB;
     background: #FFF;
     box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
@@ -328,7 +331,6 @@ sas-management-area
 }
 
 .sas-management-area-left {
-    flex-shrink: 0;
     border-radius: 30px;
     background: rgba(242, 242, 242, 0.93);
     box-shadow: -33px 60px 72px 0px rgba(155, 155, 155, 0.20);
@@ -345,20 +347,15 @@ sas-management-area
     background: linear-gradient(276deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
     box-shadow: -2.57262px 2.57262px 0px 0px #FFF inset, 0px 14px 28px 0px rgba(205, 205, 205, 0.25);
     backdrop-filter: blur(10.719239234924316px);
+    padding-left: 27px;
+    padding-right: 27px;
 
-}
-
-.sas-management-area-progress-content {
-
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    gap: 10px;
 }
 
 .sas-management-area-progress .progress {
     width: 376px;
-    margin-bottom: 20px
+    position: fixed;
+    left: 124px;
 }
 
 .sas-management-area-progress-content-main h5 {
@@ -367,13 +364,16 @@ sas-management-area
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 133.2%;
-    /* 26.64px */
-    text-transform: capitalize;
-    margin: 0;
-    padding: 0;
+    line-height: 133.2%;   
+    text-transform: capitalize;   
     padding-top: 32px;
-    padding-left: 27px;
+    
+}
+
+.sas-management-area-progres-left {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 21px;
 }
 
 .sas-management-area-progres-left p {
@@ -383,13 +383,14 @@ sas-management-area
     font-style: normal;
     font-weight: 500;
     line-height: 133.2%;
-    /* 19.98px */
+    text-align: center;
     text-transform: capitalize;
+    margin: 0;
 }
 
 .sas-management-progres-persent p {
     margin: 0;
-    margin-bottom: 11px;
+
 }
 
 .sas-management-middle-content {
@@ -490,6 +491,7 @@ sas-management-area
     cursor: pointer;
 
 }
+
 .sas-management-area-content {
     padding-top: 20px;
 }
@@ -611,9 +613,10 @@ sas-dashboared
     background-color: #1EB1E5;
     padding: 26px 53px;
 }
+
 .sas-dashboared-input-area .sas-button:hover {
     background-color: red;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 .sas-dashboared-input-area input {
@@ -673,6 +676,7 @@ sas-dsashbored-content-area
     align-items: center;
 
 }
+
 .sas-dasbores-content-icon i:hover {
     background-color: #FFD546;
     cursor: pointer;
@@ -1141,7 +1145,7 @@ sas-testimonial-area
 .sas-testimonial-slider-area .owl-nav button span {
     font-size: 50px;
     border: 1px solid #fff;
-    border-radius: 50%;   
+    border-radius: 50%;
     border-left: none;
     width: 100px;
     height: 100px;
@@ -2011,8 +2015,8 @@ sas-error-area
     padding-right: 204px
 }
 
-.sas-error-area a {    
-    padding: 14px 28px;  
+.sas-error-area a {
+    padding: 14px 28px;
     border-radius: 5px;
     background: #4BE3EB;
     color: #303030;
