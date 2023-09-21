@@ -1,4 +1,19 @@
 (function ($) {
+    $('.scrollTop').click(function(){
+        $('html').animate({'scrollTop':'10'},5000);
+        return false;
+    });
+
+    $(window).scroll(function(){
+        let uporthekeScroll = $(window).scrollTop();
+        if (uporthekeScroll > 10){
+            $('.sas-heading-area').addClass('fixed')
+        }
+        else{
+            $('.sas-heading-area').removeClass('fixed')
+        }
+        
+    });
     $('.sas-testimonial-slider-area').owlCarousel({
         items: 1,
         loop: true,
