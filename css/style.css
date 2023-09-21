@@ -97,21 +97,26 @@ li {
 .sas-button:hover {
     background-color: #2FCF3F;
 }
-.fixed{
+
+.fixed {
     position: fixed;
     left: 0;
     right: 0;
     z-index: 2;
-    background-color: #FF7C68;
+    background-color: #ccbebc;
 }
-.scrollTop{
-    background-color: aqua;
+
+.scrollTop {
+    background-color: rgb(89, 102, 102);
     font-size: 20px;
     padding: 20px;
     position: fixed;
     right: 0;
     bottom: 0;
+    color: #fff;
+    border-radius: 20px;
 }
+
 /* ---------------------------------
 sas-heading-content-area
 ------------------------------------ */
@@ -122,7 +127,7 @@ sas-heading-content-area
 
 .sas-heading-content-area {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -379,10 +384,10 @@ sas-management-area
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 133.2%;   
-    text-transform: capitalize;   
+    line-height: 133.2%;
+    text-transform: capitalize;
     padding-top: 32px;
-    
+
 }
 
 .sas-management-area-progres-left {
